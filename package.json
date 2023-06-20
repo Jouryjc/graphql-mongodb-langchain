@@ -1,0 +1,20 @@
+{
+  "name": "graphql-mongodb-langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "**/*": "pnpm exec prettier --write --ignore-unknown"
+  },
+  "author": "Jouryjc",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "changeset": "^0.2.6",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}
